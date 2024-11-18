@@ -1,0 +1,112 @@
+h1.main-title, p.author {
+    text-align: center;
+    font-weight: bold;
+}
+
+p.author {
+    font-size: 1.2em;
+    margin-top: -10px;
+    color: #555; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    position: relative;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1.main-title {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2.section-title {
+    font-size: 1.5em;
+    margin-top: 20px;
+    cursor: pointer;
+    color: #007bff;
+    text-decoration: underline;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin-top: 10px;
+    cursor: pointer;
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+p, ul {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+button.modeToggleBtn {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.modeToggleBtn:hover {
+    background-color: #0056b3;
+}
+
+.chaotic {
+    background-color: #ffe6e6;
+    color: #4d0000;
+    font-family: "Courier New", monospace;
+}
+
+.chaotic .container {
+    background-color: #ffcccc;
+    box-shadow: 0 0 15px rgba(200, 0, 0, 0.5);
+}
+
+.chaotic h1.main-title {
+    color: #990000;
+    text-align: center;
+}
+
+.chaotic h2.section-title {
+    color: #cc0000;
+    text-decoration: none;
+}
+
+.chaotic h3 {
+    color: #800000;
+}
+
+.chaotic p, .chaotic ul {
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+.chaotic button.modeToggleBtn {
+    background-color: #990000;
+    color: #fff;
+}
+
+.chaotic button.modeToggleBtn:hover {
+    background-color: #800000;
+}
